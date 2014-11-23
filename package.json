@@ -1,0 +1,35 @@
+{
+  "name": "nodebb-plugin-sso-instagram",
+  "version": "0.1.0",
+  "description": "NodeBB Instagram SSO",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joe1chen/nodebb-plugin-sso-instagram"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "instagram",
+    "sso",
+    "single sign on",
+    "registration"
+  ],
+  "author": "Joseph Chen <joseph.chen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joe1chen/nodebb-plugin-sso-instagram/issues"
+  },
+  "dependencies": {
+    "passport-instagram": "^0.1.2",
+    "shortid": "^2.1.2"
+  },
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  },
+  "homepage": "https://github.com/joe1chen/nodebb-plugin-sso-instagram",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
