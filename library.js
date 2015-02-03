@@ -80,6 +80,7 @@
 					// Save instagram-specific information to the user
 					var data = {
 						instagramId: instagramId,
+						'email:confirmed': 1
 					};
 
 					if (!merge) {
